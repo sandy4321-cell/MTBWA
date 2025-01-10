@@ -3,31 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LoadUP</title>
+    <link rel="shortcut icon" href="./assets/logovec.png" type="image/x-icon">
     <link rel="stylesheet" href="login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="cont">
-        <div class="inner">
-        <div class="left">
-        <img src="./assets/Vector.png" alt="Logo" class="vector">
-        <h2>Sign in</h2>
-        <p>to continue to Loadup</p>
+        <img src="./assets/tree.png" alt="tree" class="tree2">
+        <div class="inner" id="contain">
+        <div class="left" id="left">
+            <div class="vec" id="vec">
+                <img src="./assets/tree.png" alt="tree" class="tree" id="tree">
+                <img src="./assets/tree.png" alt="tree" class="tree3" id="tree3">
+        <img src="./assets/Vector.png" alt="Logo" class="vector" id="vector">
     </div>
-    <div class="right">
+        <h2 id="left-text">Sign in</h2>
+        <p id="left-p">to continue to Loadup</p>
+        <p id="load">Loading.....</p>
+    </div>
+    <div class="right" id="right">
         <div class="container">
-            <input required="" type="text" name="text" class="input" placeholder="Username">
+            <input required type="email" name="text" class="input" placeholder="Email Id">
+            <input required type="password" name="text" class="input" placeholder="Password">
           </div>
         <p class="des">Welcome, to the universe of tranformers</p>
         <div class="bttn">
-            <button class="crt">Create</button>
-            <button class="nxt">Next</button>
+            <button class="crt" id="correct" onclick="next()">Sign up</button>
+            <button class="nxt" id="nxt" onclick="next()">Next</button>
         </div>
     </div>
 </div>
     </div>
+    
+    <script src="login.js"></script>
 </body>
 </html>

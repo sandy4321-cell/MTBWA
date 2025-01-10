@@ -11,10 +11,9 @@ function next(){
     let tree3 = document.getElementById('tree3');
     let button =document.getElementById('correct');
 
-    setTimeout(() =>{
-        window.location.href="http://127.0.0.1:5500/MTBWA/signup.html";
-    },2000);
-
+setTimeout(() =>{
+    window.location.href="http://127.0.0.1:5500/MTBWA/login.html";
+},2000);
     
     tree3.style.display = "none"
     contain.style.width = "100vw"
@@ -34,13 +33,6 @@ function next(){
     load.style.marginLeft = "575px"
     load.style.marginTop = "30px"
 
+
     
 }
-
-
-
-
-
-
-
-
